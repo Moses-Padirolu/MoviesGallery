@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import Card from './Gallery/card';
-import gallery from './Gallery/gallery.css';
 import sdata from './Gallery/sdata';
 
 
