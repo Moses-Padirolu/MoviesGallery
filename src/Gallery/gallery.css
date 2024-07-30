@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Josefin+Sans&family=Suez+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing:2px;
+    height:100px;
+    color:white;
+    /* font-family: 'Donegal One', serif; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Suez One', serif;
+    background-color: rgb(5, 5, 5);
+    text-decoration: none;
+    box-shadow: -30px 5px 70px rgb(0, 0, 0,0.9);
+}
+
+.netflix a{
+    text-decoration: none;
+    color:rgb(255, 0, 0);
+}
+.head_list a {
+    font-family: 'Donegal One', serif; 
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    color:rgb(253, 255, 255);
+}
+
+.head_list:hover a{
+    text-decoration: underline;
+    color:rgb(255, 17, 0);
+}
+.foot{
+    height:80px;
+    width:100%;
+    background-color:rgb(5, 5, 5);
+}
+
+.container{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 229, 229);
+}
+
+.box{
+    min-height: 100vh;
+    filter:brightness(1.05);
+    box-shadow:0px 0px 10px  rgb(255, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 2px;
+    position: relative;
+    width:90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(255, 255, 255);
+}
+
+.cards{
+    border:0.5px solid rgb(0, 0, 0);
+    position: relative;
+    float:left;
+    background-color: rgb(0, 0, 0);
+    margin-bottom:5%;
+    border-radius: 10px;
+    box-shadow:-10px 30px 30px  rgb(17, 17, 17);
+}
+
+.cards:hover{
+    transform: scale(1.05);
+    
+}
+.card_img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card_info{
+    display:grid;
+    grid-template-columns: repeat(1fr);
+    padding-left:8px;
+    padding-bottom: 5px;
+}
+
+.discription{
+    color:rgb(126, 117, 117);
+    font-size:small;
+    font-style:italic;
+}
+span.card_category{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size:20px;
+    font-weight: bold;
+    color:rgb(255, 0, 0,0.8) ;
+    font-family:'Times New Roman', Times, serif;
+}
+
+hr{
+    border:0.1px solid rgb(37, 30, 30);
+    border-radius: 5px;
+}
+.checked{
+    color:rgb(209, 152, 46);
+}
+
+#star{
+    color:rgb(123, 101, 59);
+}
+button{
+    padding-left:3px;
+    padding-right:3px;
+    border:3px solid black;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(218, 37, 37);
+    height:3vh;
+    min-width: fit-content;
+    cursor: pointer;
+}
+
+button:hover{
+    border:1px solid red;
+    color:rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+

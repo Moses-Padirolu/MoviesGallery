@@ -3,6 +3,25 @@ import Card from './Gallery/card';
 import gallery from './Gallery/gallery.css';
 import sdata from './Gallery/sdata';
 
+// function ncard(val){
+//   return(
+//     <Card imgsrc={val.imgsrc}
+//           title={val.title}
+//           sname={val.title}
+//           link={val.links}
+//     />
+//   )
+// }
+
+// {sdata.map(function ncard(val){
+//   return(
+//     <Card imgsrc={val.imgsrc}
+//           title={val.title}
+//           sname={val.title}
+//           link={val.links}
+//     />
+//   )
+// })}
 
 function App(){
   const [items,setItems] = useState(sdata)
@@ -52,4 +71,3 @@ function App(){
 
 
 export default App;
-
