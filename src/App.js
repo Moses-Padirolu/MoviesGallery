@@ -21,14 +21,14 @@ function App(){
     <div className="App">
       <header className='header'>
         <div className='netflix'><h1>MoSeS</h1></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Adventure')}>Adventure</buttom></a></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Webseries')}>Webseries</buttom></a></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Horror')}>Horror</buttom></a></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Sci-fi')}>Sci-fi</buttom></a></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Comedy')}>Comedy</buttom></a></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Fantacy')}>Fantacy</buttom></a></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Drama')}>Drama</buttom></a></div>
-        <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdataAll()}>All</buttom></a></div>
+        <div className='head_list'><a><buttom onClick={() => filterSdata('Adventure')}>Adventure</buttom></a></div>
+        <div className='head_list'><a ><buttom onClick={() => filterSdata('Webseries')}>Webseries</buttom></a></div>
+        <div className='head_list'><a ><buttom onClick={() => filterSdata('Horror')}>Horror</buttom></a></div>
+        <div className='head_list'><a ><buttom onClick={() => filterSdata('Sci-fi')}>Sci-fi</buttom></a></div>
+        <div className='head_list'><a ><buttom onClick={() => filterSdata('Comedy')}>Comedy</buttom></a></div>
+        <div className='head_list'><a ><buttom onClick={() => filterSdata('Fantacy')}>Fantacy</buttom></a></div>
+        <div className='head_list'><a ><buttom onClick={() => filterSdata('Drama')}>Drama</buttom></a></div>
+        <div className='head_list'><a ><buttom onClick={() => filterSdataAll()}>All</buttom></a></div>
       </header>
       <div className='container'>
         <div className='box'>
