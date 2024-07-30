@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import Card from './Gallery/card';
 import sdata from './Gallery/sdata';
+import './Gallery/gallery.css'
 
 
 function App(){
@@ -19,7 +20,7 @@ function App(){
   return (
     <div className="App">
       <header className='header'>
-        <div className='netflix'><a href='#' alt=""><h1>MoSeS</h1></a></div>
+        <div className='netflix'><h1>MoSeS</h1></div>
         <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Adventure')}>Adventure</buttom></a></div>
         <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Webseries')}>Webseries</buttom></a></div>
         <div className='head_list'><a href='#' alt=""><buttom onClick={() => filterSdata('Horror')}>Horror</buttom></a></div>
